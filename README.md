@@ -56,7 +56,7 @@ Install the Flux controllers on the test cluster:
 flux bootstrap github \
     --owner=${GITHUB_USER} \
     --repository=flux2-monitoring-example \
-    --branch=main \
+    --branch=fluxcd \
     --personal \
     --path=clusters/test
 ```
